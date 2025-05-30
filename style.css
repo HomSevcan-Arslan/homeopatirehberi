@@ -787,7 +787,7 @@ article.homeopati-panel {
 
 
 .home-section:nth-of-type(1) h2::before {
-  background-color:#f5e8d7;
+  background-color:#f5e8d7; 
   top: 50%;
   left: 70%;
 }
