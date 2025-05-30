@@ -1,0 +1,176 @@
+/* Ödeme Butonu */
+.odeme-btn {
+  margin-top: 12px;
+  padding: 10px 18px;
+  font-size: 14px;
+  background-color: var(--accent-color);
+  color: white;
+  border-radius: 10px;
+  display: inline-block;
+  font-weight: 600;
+  transition: background-color 0.3s ease;
+  border: none;
+  cursor: pointer;
+}
+
+/* Hover efekti */
+.odeme-btn:hover {
+  background-color: var(--accent-color-hover, #d97706); /* varsayılan hover */
+}
+
+/* === Ödeme Sayfası === */
+.odeme-main {
+  max-width: 500px;
+  margin: 40px auto;
+  padding: 0 20px;
+}
+
+.odeme-main h1 {
+  text-align: center;
+  margin-bottom: 30px;
+  color: var(--text-color);
+}
+
+#odeme-formu {
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+}
+
+#odeme-formu input {
+  padding: 10px 14px;
+  border: 1px solid #ccc;
+  border-radius: 6px;
+  font-size: 16px;
+}
+
+#odeme-formu label {
+  font-weight: 600;
+  color: var(--text-color);
+}
+
+
+
+.odeme-btn:hover {
+  background-color: var(--accent-hover);
+}
+.odeme-btn,
+.popup-message button {
+  font-size: 14px;
+  padding: 10px 16px;
+}
+/* Sil Butonu */
+.sepet-urun .sil-btn {
+  flex: 0;
+  background-color: #dc2626;
+  border: none;
+  color: white;
+  padding: 4px 12px;
+  border-radius: 6px;
+  cursor: pointer;
+  font-size: 14px;
+  white-space: nowrap;
+}
+
+/* Toplam ve Buton Alanı */
+.toplam-alani {
+  margin-top: 30px;
+  text-align: right;
+  font-size: 18px;
+}
+
+/* Toplam + Buton birlikte hizalı */
+.sepet-alt {
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  gap: 16px;
+  margin-top: 20px;
+  flex-wrap: wrap;
+}
+/* === Popup === */
+.popup {
+  position: fixed;
+  bottom: 30px;
+  right: 30px;
+  background-color: var(--accent-color);
+  color: #fff;
+  padding: 16px 24px;
+  border-radius: 8px;
+  box-shadow: var(--shadow);
+  opacity: 0;
+  pointer-events: none;
+  transform: translateY(20px);
+  transition: opacity 0.4s ease, transform 0.4s ease;
+  z-index: 1000;
+}
+
+.popup.show {
+  opacity: 1;
+  pointer-events: auto;
+  transform: translateY(0);
+}
+/* === Sepet Sayfası === */
+.sepet-main {
+  padding: 40px 20px;
+  max-width: 800px;
+  margin: auto;
+}
+
+.sepet-main h1 {
+  text-align: center;
+  margin-bottom: 30px;
+  color: var(--text-color);
+}
+
+#sepet-alani {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+/* Ürün Kartı */
+.sepet-urun {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: var(--card-bg);
+  padding: 16px 24px;
+  border-radius: var(--border-radius);
+  box-shadow: var(--shadow);
+  flex-wrap: wrap; /* mobil uyum için */
+  gap: 10px;
+}
+
+/* Ürün Adı */
+.sepet-urun .urun-adi {
+  flex: 2;
+  font-weight: 600;
+  min-width: 120px;
+}
+
+/* Adet Kontrolü */
+.sepet-urun .adet-kontrol {
+  flex: 1;
+  display: flex;
+  gap: 10px;
+  align-items: center;
+  justify-content: center;
+}
+
+.adet-kontrol button {
+  background-color: var(--accent-color);
+  border: none;
+  color: white;
+  padding: 4px 10px;
+  font-size: 16px;
+  border-radius: 6px;
+  cursor: pointer;
+}
+
+.adet-kontrol span {
+  min-width: 20px;
+  display: inline-block;
+  text-align: center;
+  font-weight: 500;
+}
