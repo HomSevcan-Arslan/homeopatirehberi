@@ -130,14 +130,6 @@
     text-align: left;
     padding: 0 10px;
   }
-}
-@media (max-width: 1024px) {
-  .hakkimda-giris {
-    flex-direction: column;
-  }
-  .profil-kapsayici {
-    margin-bottom: 20px;
-  }
   .flag-counter {
     right: 10px; 
     top: auto;
@@ -148,4 +140,13 @@
   .flag-counter img {
     max-width: 120px; 
   }
+}
+@media (max-width: 1024px) {
+  .hakkimda-giris {
+    flex-direction: column;
+  }
+  .profil-kapsayici {
+    margin-bottom: 20px;
+  }
+
 }
