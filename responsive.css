@@ -139,10 +139,13 @@
     margin-bottom: 20px;
   }
   .flag-counter {
-    position: static; 
+    right: 10px; 
+    top: auto;
+    bottom: 10px;
     transform: none; 
-    margin: 20px auto 0; 
-    display: flex;
-    justify-content: center;
+  }
+
+  .flag-counter img {
+    max-width: 120px; 
   }
 }
