@@ -138,5 +138,11 @@
   .profil-kapsayici {
     margin-bottom: 20px;
   }
-
+  .flag-counter {
+    position: static; 
+    transform: none; 
+    margin: 20px auto 0; 
+    display: flex;
+    justify-content: center;
+  }
 }
