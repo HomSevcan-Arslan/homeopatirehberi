@@ -169,11 +169,16 @@ nav {
 }
 .flag-counter {
   position: absolute;
-  right: 20px;         
-  top: 50%;            
+  top: 50%;
+  right: 20px; 
   transform: translateY(-50%); 
-  height: 40px;        
 }
+
+.flag-counter img {
+  max-width: 120px;
+  height: auto;
+}
+
 .thankyou-section {
   display: flex;
   justify-content: center;
