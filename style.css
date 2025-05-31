@@ -146,20 +146,28 @@ nav {
   color: white;
   padding: 40px 20px 20px;
   position: relative;
-  display: flex;
-  flex-direction: column;
 }
 
 .footer-content {
   display: flex;
-  justify-content: space-between;
-  flex-wrap: wrap;
+  flex-direction: column; 
+  align-items: flex-start; 
+  text-align: left; 
 }
-
+.contact-info {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
 .footer-item {
-  margin-bottom: 8px;
+ 
+  display: flex;
+  align-items: center;
+  gap: 8px;
 }
-
+.copyright {
+  margin-top: 20px;
+}
 .icon {
   width: 20px;
   height: 20px;

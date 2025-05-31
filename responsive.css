@@ -139,17 +139,7 @@
   .contact-info {
     flex: 1 1 60%; 
   }
-  .flag-counter {
-    flex: 1 1 30%; 
-    text-align: right;
-    margin-top: 0;
-    position: static;
-  }
-
-  .flag-counter img {
-    max-width: 100px; 
-    height: auto;
-  }
+  
 
   .footer-content {
     flex-direction: column;
