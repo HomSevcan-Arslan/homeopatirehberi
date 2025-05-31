@@ -131,14 +131,20 @@
     padding: 0 10px;
   }
   .flag-counter {
-    right: 10px; 
-    top: auto;
-    bottom: 10px;
-    transform: none; 
+    position: static;
+    margin: 20px auto 0 auto; 
+    display: block;
   }
 
   .flag-counter img {
-    max-width: 120px; 
+    max-width: 100px; 
+    height: auto;
+  }
+
+  .footer-content {
+    flex-direction: column;
+    align-items: center; 
+    text-align: center; 
   }
 }
 @media (max-width: 1024px) {
