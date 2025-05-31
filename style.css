@@ -167,6 +167,13 @@ nav {
 .email-icon {
   filter: brightness(0) invert(1);
 }
+.flag-counter {
+  position: absolute;
+  right: 20px;         
+  top: 50%;            
+  transform: translateY(-50%); 
+  height: 40px;        
+}
 .thankyou-section {
   display: flex;
   justify-content: center;
