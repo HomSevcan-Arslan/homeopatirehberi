@@ -130,10 +130,20 @@
     text-align: left;
     padding: 0 10px;
   }
+  .footer-content {
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: flex-start;
+  }
+
+  .contact-info {
+    flex: 1 1 60%; 
+  }
   .flag-counter {
+    flex: 1 1 30%; 
+    text-align: right;
+    margin-top: 0;
     position: static;
-    margin: 20px auto 0 auto; 
-    display: block;
   }
 
   .flag-counter img {
