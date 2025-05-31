@@ -140,11 +140,16 @@
     flex: 1 1 60%; 
   }
   
+  .flag-counter {
+    position: static;
+    margin: 20px auto 0; 
+    display: block;
+    text-align: center;
+  }
 
-  .footer-content {
-    flex-direction: column;
-    align-items: center; 
-    text-align: center; 
+  .flag-counter img {
+    max-width: 100px;
+    height: auto;
   }
 }
 @media (max-width: 1024px) {
