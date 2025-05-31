@@ -178,7 +178,7 @@ nav {
 }
 
 .flag-counter img {
-  max-width: 140px;
+  max-width: 160px;
   height: auto;
 }
 
@@ -754,7 +754,7 @@ article.homeopati-panel {
   width: 240px;
   height: 240px;
   border-radius: 50%;
-  background: radial-gradient(circle, #d9f1d6, #ffffff);
+  background: radial-gradient(circle, #ffffff);
   top: 50%;
   left: 50%;
   transform: translate(-50%, -50%);
