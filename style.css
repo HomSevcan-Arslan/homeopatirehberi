@@ -146,6 +146,8 @@ nav {
   color: white;
   padding: 40px 20px 20px;
   position: relative;
+  display: flex;
+  flex-direction: column;
 }
 
 .footer-content {
@@ -176,7 +178,7 @@ nav {
 }
 
 .flag-counter img {
-  max-width: 120px;
+  max-width: 140px;
   height: auto;
 }
 
