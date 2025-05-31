@@ -139,22 +139,23 @@
   .contact-info {
     flex: 1 1 60%; 
   }
+  .footer-content {
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: flex-start;
+    text-align: left;
+  }
+
   .flag-counter {
-    flex: 1 1 30%; 
-    text-align: right;
-    margin-top: 0;
-    position: static;
+    position: absolute;
+    top: 50%;
+    right: 20px;
+    transform: translateY(-50%);
+    margin-top: 0; 
   }
 
   .flag-counter img {
-    max-width: 100px; 
-    height: auto;
-  }
-
-  .footer-content {
-    flex-direction: column;
-    align-items: center; 
-    text-align: center; 
+    max-width: 120px; 
   }
 }
 @media (max-width: 1024px) {
