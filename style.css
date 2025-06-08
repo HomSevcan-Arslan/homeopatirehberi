@@ -42,6 +42,8 @@ a {
   background-color: var(--text-color);
   color: white;
   flex-wrap: wrap;
+  position: relative; 
+  z-index: 10;
 }
 .hero {
   background-color: #fff6ea;
@@ -390,7 +392,7 @@ main {
   border: none;
   color: white;
   cursor: pointer;
-  z-index: 9999;
+  z-index: 20;
 }
 
 
