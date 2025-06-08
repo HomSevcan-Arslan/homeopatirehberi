@@ -390,7 +390,7 @@ main {
   border: none;
   color: white;
   cursor: pointer;
-  color: black;
+  z-index: 9999;
 }
 
 
