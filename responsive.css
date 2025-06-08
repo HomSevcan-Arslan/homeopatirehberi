@@ -141,15 +141,21 @@
   }
   
   .flag-counter {
-    position: static;
+      position: relative; /* static yerine relative */
     margin: 20px auto 0; 
     display: block;
     text-align: center;
+    transform: none; /* mobilde transform iptal */
+    top: auto;
+    right: auto;
   }
 
   .flag-counter img {
-    max-width: 100px;
+    max-width: 100px; 
     height: auto;
+  }
+  footer {
+    padding-bottom: 60px; /* footer yazı ile flag arasında boşluk */
   }
 }
 @media (max-width: 1024px) {
