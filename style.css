@@ -179,19 +179,6 @@ nav {
   filter: brightness(0) invert(1);
 }
 
-
-.flag-counter {
-  position: absolute;
-  top: 50%;
-  right: 20px; 
-  transform: translateY(-50%);
-}
-
-.flag-counter img {
-  max-width: 140px; 
-  height: auto;
-}
-
 .thankyou-section {
   display: flex;
   justify-content: center;
