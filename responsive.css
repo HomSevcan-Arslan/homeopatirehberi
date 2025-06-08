@@ -59,6 +59,45 @@
   .logo-img {
     height: 55px;
   }
+ .hakkimda-giris {
+    flex-direction: column;
+    text-align: center;
+  }
+
+  .giris-yazisi {
+    text-align: left;
+    padding: 0 10px;
+  }
+  .footer-content {
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: flex-start;
+  }
+
+  .contact-info {
+    flex: 1 1 60%; 
+  }
+  
+  .flag-counter {
+      position: relative; /* static yerine relative */
+    margin: 20px auto 0; 
+    display: block;
+    text-align: center;
+    transform: none; /* mobilde transform iptal */
+    top: auto;
+    right: auto;
+  }
+
+  .flag-counter img {
+    max-width: 100px; 
+    height: auto;
+  }
+  footer {
+    padding-bottom: 60px; /* footer yazı ile flag arasında boşluk */
+  }
+  article.homeopati-panel {
+    padding: 0 12px;
+  }
 }
 
 @media (max-width: 480px) {
@@ -115,49 +154,7 @@
     font-size: 15px;
   }
 }
-@media (max-width: 768px) {
-  article.homeopati-panel {
-    padding: 0 12px;
-  }
-}
-@media (max-width: 768px) {
-  .hakkimda-giris {
-    flex-direction: column;
-    text-align: center;
-  }
 
-  .giris-yazisi {
-    text-align: left;
-    padding: 0 10px;
-  }
-  .footer-content {
-    flex-wrap: wrap;
-    justify-content: space-between;
-    align-items: flex-start;
-  }
-
-  .contact-info {
-    flex: 1 1 60%; 
-  }
-  
-  .flag-counter {
-      position: relative; /* static yerine relative */
-    margin: 20px auto 0; 
-    display: block;
-    text-align: center;
-    transform: none; /* mobilde transform iptal */
-    top: auto;
-    right: auto;
-  }
-
-  .flag-counter img {
-    max-width: 100px; 
-    height: auto;
-  }
-  footer {
-    padding-bottom: 60px; /* footer yazı ile flag arasında boşluk */
-  }
-}
 @media (max-width: 1024px) {
   .hakkimda-giris {
     flex-direction: column;
