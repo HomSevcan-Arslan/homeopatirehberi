@@ -167,10 +167,10 @@ document.addEventListener("DOMContentLoaded", () => {
     });
   } */
 
-  // === BAŞLANGIÇTA YÜKLENENLER ===
+  /*/ === BAŞLANGIÇTA YÜKLENENLER ===
   guncelleCartCount();
   guncelleSepetGorunumu();
-}); 
+}); */
 
 //====== BLOK AKORDEON==== 
 
