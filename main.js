@@ -169,8 +169,8 @@ document.addEventListener("DOMContentLoaded", () => {
 
   /* === BAŞLANGIÇTA YÜKLENENLER ===
   guncelleCartCount();
-  guncelleSepetGorunumu();
-}); */
+  guncelleSepetGorunumu(); */
+}); 
 
 //====== BLOK AKORDEON==== 
 
