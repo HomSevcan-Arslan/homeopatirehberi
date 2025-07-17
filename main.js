@@ -13,7 +13,7 @@ document.addEventListener("DOMContentLoaded", () => {
   const cookieBanner = document.getElementById("cookie-banner");
   const cookieAccept = document.getElementById("cookie-accept");
 
-  /*/ === SABİT FİYATLAR ===
+  /* === SABİT FİYATLAR ===
   const fiyatlar = {
     "Natrum Muriaticum": 80,
     "Carcinosin": 80,
@@ -75,7 +75,7 @@ document.addEventListener("DOMContentLoaded", () => {
         <button class="sil-btn">Sil</button>
       `;
 
-     /* urunDiv.querySelector(".arttir").addEventListener("click", () => {
+      urunDiv.querySelector(".arttir").addEventListener("click", () => {
         sepet[urun]++;
         kaydetVeYenile();
       });
@@ -167,7 +167,7 @@ document.addEventListener("DOMContentLoaded", () => {
     });
   } */
 
-  /*/ === BAŞLANGIÇTA YÜKLENENLER ===
+  /* === BAŞLANGIÇTA YÜKLENENLER ===
   guncelleCartCount();
   guncelleSepetGorunumu();
 }); */
