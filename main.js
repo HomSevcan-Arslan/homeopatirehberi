@@ -156,7 +156,7 @@ document.addEventListener("DOMContentLoaded", () => {
     });
   }
 
-  /*/ === ÖDEME FORMU -teşekkür sayfasına yönlendirme===
+  /* === ÖDEME FORMU -teşekkür sayfasına yönlendirme===
   if (form) {
     form.addEventListener("submit", (e) => {
       e.preventDefault();
