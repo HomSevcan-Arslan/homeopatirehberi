@@ -939,3 +939,16 @@ main.blog-main h2.akordeon-baslik {
   height: 100%;
   border: none;
 }
+/* Blog yazısı ana görseli */
+.blog-gorsel {
+  width: 80%;
+  max-width: 850px;
+  margin: 28px auto 36px;
+}
+
+.blog-gorsel img {
+  display: block;
+  width: 100%;
+  height: auto;
+  border-radius: 10px;
+}
