@@ -87,7 +87,21 @@
   article.homeopati-panel {
     padding: 0 12px;
   }
+
+  /* Blog yazısı ana görseli */
+  .blog-gorsel {
+    width: 100%;
+    max-width: 100%;
+    margin: 20px auto 28px;
+  }
+
+  .blog-gorsel img {
+    display: block;
+    width: 100%;
+    height: auto;
+  }
 }
+
 
 @media (max-width: 480px) {
   .logo-text {
